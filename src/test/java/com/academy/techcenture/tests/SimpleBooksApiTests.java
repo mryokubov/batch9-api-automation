@@ -155,7 +155,7 @@ public class SimpleBooksApiTests {
 
     @Test
     public void postBookOrderApiNotAvailableTest(){
-        OrderBookRequest.OrderRequestPayload requestPayload = new OrderBookRequest.OrderRequestPayload(2, "Abbos Senior Dev");
+        OrderRequestPayload requestPayload = new OrderRequestPayload(2, "Abbos Senior Dev");
 
         /*
             given()

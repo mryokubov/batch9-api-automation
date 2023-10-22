@@ -8,12 +8,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class OrderResponse {
-
     private String id;
     private int bookId;
     private String customerName;
     private String createdBy;
     private int quantity;
     private long timestamp;
-
 }
