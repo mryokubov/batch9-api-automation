@@ -1,14 +1,16 @@
-package com.academy.techcenture.pojo;
+package com.academy.techcenture.pojos;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
 
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @Data
 @ToString
-public class BookResponse {
-
+public class BookFullDetailsResponse {
     private int id;
     private String name;
     private String author;
@@ -18,6 +20,4 @@ public class BookResponse {
     @JsonProperty("current-stock")
     private int currentStock;
     private boolean available;
-
-
 }

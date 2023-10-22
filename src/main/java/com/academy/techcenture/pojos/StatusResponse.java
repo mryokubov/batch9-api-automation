@@ -1,4 +1,4 @@
-package com.academy.techcenture.pojo;
+package com.academy.techcenture.pojos;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,7 +9,6 @@ import lombok.ToString;
 @AllArgsConstructor
 @Data
 @ToString
-public class PostOrderErrorResponse {
-
-    private String error;
+public class StatusResponse {
+    private String status;
 }

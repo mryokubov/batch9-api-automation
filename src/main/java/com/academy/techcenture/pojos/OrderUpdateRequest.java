@@ -1,5 +1,4 @@
-package com.academy.techcenture.pojo;
-
+package com.academy.techcenture.pojos;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -7,6 +6,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class OrderUpdateRequestPayload {
+public class OrderUpdateRequest {
     private String customerName;
 }

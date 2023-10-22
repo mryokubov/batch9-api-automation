@@ -1,4 +1,4 @@
-package com.academy.techcenture.pojo;
+package com.academy.techcenture.pojos;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -15,4 +15,5 @@ public class OrderResponse {
     private String createdBy;
     private int quantity;
     private long timestamp;
+
 }
